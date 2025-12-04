@@ -1,0 +1,13 @@
+Core Context Pack:
+- docs/architecture.md - System architecture and design patterns
+- docs/structure.md - Project organization and folder structure
+- docs/code.md - Code patterns and conventions
+- docs/dataflow.md - Data flow and system boundaries
+- docs/decisions.md - Architectural decisions and rationale
+- docs/glossary.md - Domain terminology and definitions
+- docs/risk.md - Security and risk management
+- docs/file-todo-list.md - File-by-file documentation todos
+
+This document contains all prompts used for generating content packs. All docs are saved under /docs. We want fool-proof context: we will create a TODO for every file in the repo, and build up the .md files using real data from every file that is read. We will eventually be able to prompt the system to complete checking every file for context.
+
+Important - Don't make any assumptions. All data in the context must be true and from a finding in the codebase. The goal is full coverage: every file is eventually linked to the appropriate docs.
