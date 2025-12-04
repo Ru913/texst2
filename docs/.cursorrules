@@ -1,0 +1,25 @@
+AI Assistant Knowledge Index
+
+Mandatory Reference Documents:
+- docs/architecture.md
+- docs/structure.md
+- docs/code.md
+- docs/dataflow.md
+- docs/decisions.md
+- docs/glossary.md
+- docs/risk.md
+- docs/file-todo-list.md
+
+These documents collectively describe the architecture, structure, code workflows, risks, glossary, and context metadata of the project. They are considered mandatory reading for anybody involved in developing features, debugging, or refactoring within the project.
+
+Cursor Development Rules:
+- Before making any context-sensitive recommendations, preload and parse all the above documents.
+- Treat these documents as the single source of truth for understanding the project's architecture, coding standards, dataflows, security, and risk assessments.
+- Maintain an accurate TODO list in the documents with statuses indicated as [ ], [x], and [-].
+- No hallucinations: limit suggestions to APIs, classes, or logic that are verifiably present in the repository or within /docs.
+- Employ a verification-first workflow using code search or file reading before assuming or implementing details.
+- Ensure consistency in changes with respect to contents found in architecture.md, structure.md, code.md, etc.
+- Incorporate security and performance considerations as fundamental parts of the workflow process.
+
+Important:
+- Avoid making assumptions; all presented information should be verified and true based on the context provided.
