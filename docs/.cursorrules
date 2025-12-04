@@ -1,0 +1,26 @@
+Knowledge Index for texst2 Repository
+
+Mandatory Reference Documents:
+- architecture.md: Overview of system architecture and component relationships.
+- structure.md: Detailed description of project structure and key modules.
+- code.md: Critical insights into key classes, functions, and system workflows.
+- dataflow.md: Analysis of data models, transformation pipelines, and input/output flows.
+- decisions.md: Records of architectural decisions, technology choices, and design patterns.
+- glossary.md: Definitions of general and project-specific terms used across the repository.
+- risk.md: Security vulnerabilities, performance risks, and recommended mitigation strategies.
+- file-todo-list.md: Documentation tracking for all major files and their current documentation status.
+
+Purpose of These Documents:
+These documents serve as comprehensive references on architecture, structure, code processes, workflows, risks, and terminology within the texst2 project. They are essential for developers and contributors for understanding the project's setup before undertaking feature development, debugging, or any form of refactoring.
+
+Development Rules:
+- Preload and parse all listed documents before making context-sensitive recommendations.
+- Treat these documents as the primary sources of truth for all development standards in architecture, coding, dataflow, risk management, and security procedures.
+- Maintain clear documentation states with symbols like [ ], [x], and [-] denoting not started, completed, and discarded tasks respectively.
+- Base all feature suggestions and code modifications strictly on APIs, logic, and structures documented in the repo or specifically within these documents.
+- Always verify by code search or file reading before assuming specific implementation details.
+- Ensure consistency with documented standards in architecture.md, structure.md, code.md, and other relevant documents for all changes.
+- Include security and performance considerations as primary aspects of any development or refactoring workflow.
+
+Important:
+Make no assumptions during development. All decisions or recommendations must strictly align with documented and verified information provided within the project's documented scope.
